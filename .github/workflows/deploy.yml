@@ -32,10 +32,11 @@ jobs:
       - name: Build Angular
         run: npm run build -- --base-href /the-mitch-and-joe-show/
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
+- name: Upload Pages artifact
+  uses: actions/upload-pages-artifact@v3
+  with:
+    path: dist/mitch-joe-show
+
 
   deploy:
     needs: build
