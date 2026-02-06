@@ -1,0 +1,41 @@
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <h3 class="brand-title">The Mitch & Joe Show</h3>
+        <p class="brand-description">Classic rock duo performing timeless favorites for clubs, parties, and special events.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4 class="links-title">Quick Links</h4>
+        <ul class="links-list">
+          <li><a href="#home" (click)="scrollToSection('#home', $event)">Home</a></li>
+          <li><a href="#about" (click)="scrollToSection('#about', $event)">About</a></li>
+          <li><a href="#services" (click)="scrollToSection('#services', $event)">Services</a></li>
+          <li><a href="#events" (click)="scrollToSection('#events', $event)">Events</a></li>
+          <li><a href="#contact" (click)="scrollToSection('#contact', $event)">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4 class="contact-title">Contact Us</h4>
+        <div class="contact-details">
+          <div class="contact-item">
+            <strong>Mitch Haq</strong>
+            <p><a href="tel:6478507707">647-850-7707</a></p>
+            <p><a href="mailto:mitchhaq&#64;hotmail.com">mitchhaq&#64;hotmail.com</a></p>
+          </div>
+          <div class="contact-item">
+            <strong>Joe Pickford</strong>
+            <p><a href="tel:2892427510">289-242-7510</a></p>
+            <p><a href="mailto:pickford66&#64;gmail.com">pickford66&#64;gmail.com</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; {{ currentYear }} The Mitch & Joe Show. All rights reserved.</p>
+    </div>
+  </div>
+</footer>

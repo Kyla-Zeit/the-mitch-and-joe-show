@@ -1,0 +1,54 @@
+<section id="about" class="about-section">
+  <div class="container">
+    <!-- Section Header -->
+    <div class="section-header">
+      <p class="section-subtitle">About Us</p>
+      <h2 class="section-title">Meet the Band</h2>
+      <p class="section-description">
+        The Mitch and Joe Show is a duo act featuring piano and 12-string guitar with vocals, performing classic rock favorites that get people moving.
+      </p>
+    </div>
+
+    <!-- Band Members -->
+    <div class="band-members">
+      <div *ngFor="let member of bandMembers" class="member-card">
+        <div class="member-image-wrapper">
+          <img [src]="member.image" [alt]="member.name" class="member-image">
+          <div class="member-overlay"></div>
+        </div>
+        <div class="member-info">
+          <h3 class="member-name">{{ member.name }}</h3>
+          <p class="member-role">{{ member.role }}</p>
+          <p class="member-description">{{ member.description }}</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features -->
+    <div class="features">
+      <div *ngFor="let feature of features; let i = index" class="feature-card">
+        <div class="feature-icon">
+          <svg *ngIf="i === 0" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 18V5l12-2v13"></path>
+            <circle cx="6" cy="18" r="3"></circle>
+            <circle cx="18" cy="16" r="3"></circle>
+          </svg>
+          <svg *ngIf="i === 1" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M11.5 12H20"></path>
+            <path d="M11.5 12a3.5 3.5 0 0 1-7 0"></path>
+            <path d="M11.5 12a3.5 3.5 0 0 0-7 0"></path>
+            <path d="M20 12v4a2 2 2 0 0 1-2 2H6a2 2 2 0 0 1-2-2v-4"></path>
+          </svg>
+          <svg *ngIf="i === 2" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+            <circle cx="9" cy="7" r="4"></circle>
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+          </svg>
+        </div>
+        <h3 class="feature-title">{{ feature.title }}</h3>
+        <p class="feature-description">{{ feature.description }}</p>
+      </div>
+    </div>
+  </div>
+</section>
