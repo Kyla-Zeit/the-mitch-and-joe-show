@@ -27,17 +27,15 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        working-directory: mitch-joe-show
         run: npm ci
 
       - name: Build Angular
-        working-directory: mitch-joe-show
         run: npm run build -- --base-href /the-mitch-and-joe-show/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: mitch-joe-show/dist
+          path: dist
 
   deploy:
     needs: build
