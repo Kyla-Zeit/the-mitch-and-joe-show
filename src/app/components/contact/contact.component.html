@@ -1,98 +1,196 @@
-<section id="contact" class="contact-section">
-  <div class="container">
-    <div class="section-header">
-      <p class="section-subtitle">Get in Touch</p>
-      <h2 class="section-title">Book Us For Your Event</h2>
-      <p class="section-description">
-        Ready to bring classic rock to your next event? Fill out the form below and we'll get back to you soon.
-      </p>
-    </div>
+.contact-section {
+  padding: 5rem 0;
+  background: var(--background);
+}
 
-    <div class="contact-wrapper">
-      <div class="contact-info">
-        <h3 class="info-title">Contact Information</h3>
+@media (min-width: 768px) {
+  .contact-section {
+    padding: 8rem 0;
+  }
+}
 
-        <div class="contact-person">
-          <h4>Mitch Haq</h4>
-          <p><a href="tel:6478507707">647-850-7707</a></p>
-          <p><a href="mailto:mitchhaq@hotmail.com">mitchhaq@hotmail.com</a></p>
-        </div>
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
 
-        <div class="contact-person">
-          <h4>Joe Pickford</h4>
-          <p><a href="tel:2892427510">289-242-7510</a></p>
-          <p><a href="mailto:pickford66@gmail.com">pickford66@gmail.com</a></p>
-        </div>
-      </div>
+.section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
 
-      <form class="contact-form" (ngSubmit)="onSubmit()" #contactForm="ngForm">
-        <div class="form-group">
-          <input
-            type="text"
-            name="name"
-            [(ngModel)]="formData.name"
-            placeholder="Your Name"
-            required
-          >
-        </div>
+.section-subtitle {
+  color: var(--primary);
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  font-variant: small-caps;
+  font-feature-settings: "smcp";
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
 
-        <div class="form-group">
-          <input
-            type="email"
-            name="email"
-            [(ngModel)]="formData.email"
-            placeholder="Email"
-            required
-          >
-        </div>
+.section-title {
+  font-family: var(--font-heading);
+  font-size: 1.875rem;
+  font-weight: 400;
+  color: var(--foreground);
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.05em;
+  font-variant: small-caps;
+  font-feature-settings: "smcp";
+}
 
-        <div class="form-group">
-          <input
-            type="tel"
-            name="phone"
-            [(ngModel)]="formData.phone"
-            placeholder="Phone"
-          >
-        </div>
+@media (min-width: 768px) {
+  .section-title {
+    font-size: 2.25rem;
+  }
+}
 
-        <!-- MOBILE-SAFE DATE FIELD -->
-        <div class="form-group">
-          <label for="eventDate" class="form-label">Event Date</label>
-          <input
-            type="date"
-            id="eventDate"
-            name="eventDate"
-            [(ngModel)]="formData.eventDate"
-          >
-        </div>
+@media (min-width: 1024px) {
+  .section-title {
+    font-size: 3rem;
+  }
+}
 
-        <div class="form-group">
-          <input
-            type="text"
-            name="eventType"
-            [(ngModel)]="formData.eventType"
-            placeholder="Event Type"
-          >
-        </div>
+.section-description {
+  color: var(--muted-foreground);
+  max-width: 42rem;
+  margin: 0 auto;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
 
-        <div class="form-group">
-          <textarea
-            name="message"
-            [(ngModel)]="formData.message"
-            placeholder="Message"
-            rows="5"
-            required
-          ></textarea>
-        </div>
+.contact-wrapper {
+  display: grid;
+  gap: 3rem;
+}
 
-        <button
-          type="submit"
-          class="btn-submit"
-          [disabled]="!contactForm.valid"
-        >
-          Send Message
-        </button>
-      </form>
-    </div>
-  </div>
-</section>
+@media (min-width: 1024px) {
+  .contact-wrapper {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+.contact-info {
+  background: var(--card);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border);
+}
+
+.info-title {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--foreground);
+  margin-bottom: 1.5rem;
+  font-variant: small-caps;
+  font-feature-settings: "smcp";
+  letter-spacing: 0.05em;
+}
+
+.contact-person {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.contact-person:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.contact-person h4 {
+  font-weight: 600;
+  color: var(--foreground);
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-family: var(--font-heading);
+  font-variant: small-caps;
+  font-feature-settings: "smcp";
+  letter-spacing: 0.05em;
+}
+
+.contact-person p {
+  color: var(--muted-foreground);
+  margin-bottom: 0.25rem;
+}
+
+.contact-person a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.contact-person a:hover {
+  opacity: 0.8;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--muted-foreground);
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 0.875rem 1rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  color: var(--foreground);
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* 🔥 MOBILE DATE FIX */
+input[type="date"] {
+  color-scheme: dark;
+  color: var(--foreground);
+}
+
+.btn-submit {
+  padding: 0.875rem 2rem;
+  background: var(--primary);
+  color: var(--primary-foreground);
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 400;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-submit:hover:not(:disabled) {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.btn-submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
