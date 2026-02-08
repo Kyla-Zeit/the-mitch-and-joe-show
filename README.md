@@ -50,4 +50,4 @@ src/
 
 ## 🌐 Deployment
 Deployed using **GitHub Pages**.  
-Access it here → [(https://kyla-zeit.github.io/the-mitch-and-joe-show/)]
+Access it here → https://kyla-zeit.github.io/the-mitch-and-joe-show/
