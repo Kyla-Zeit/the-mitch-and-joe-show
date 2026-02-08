@@ -21,7 +21,6 @@ The application is structured using Angular’s component architecture for maint
 
 ## 📦 Project Structure
 
-```
 src/
 ├── app/
 │   ├── components/
