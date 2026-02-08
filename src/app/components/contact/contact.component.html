@@ -62,17 +62,15 @@
             placeholder="Phone"
           >
         </div>
-
-        <!-- MOBILE-SAFE DATE FIELD -->
-        <div class="form-group">
-          <label for="eventDate" class="form-label">Event Date</label>
-          <input
-            type="date"
-            id="eventDate"
-            name="eventDate"
-            [(ngModel)]="formData.eventDate"
-          >
-        </div>
+        
+<div class="form-group">
+  <span class="form-title">Event Date</span>
+  <input
+    type="date"
+    name="eventDate"
+    [(ngModel)]="formData.eventDate"
+  >
+</div>
 
         <div class="form-group">
           <input
