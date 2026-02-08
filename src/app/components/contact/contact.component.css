@@ -203,3 +203,34 @@ input[type="date"] {
   opacity: 0.5;
   cursor: not-allowed;
 }
+
+/* ===== MOBILE ONLY DATE PLACEHOLDER ===== */
+@media (max-width: 767px) {
+  .date-field {
+    position: relative;
+  }
+
+  .date-field input[type="date"] {
+    position: relative;
+    z-index: 2;
+    background: transparent;
+  }
+
+  .date-placeholder {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: var(--muted-foreground);
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  /* Hide fake placeholder when focused or has value */
+  .date-field input[type="date"]:focus + .date-placeholder,
+  .date-field input[type="date"]:not(:placeholder-shown) + .date-placeholder,
+  .date-field input[type="date"][value]:not([value=""]) + .date-placeholder {
+    display: none;
+  }
+}
