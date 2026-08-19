@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">The Mitch &amp; Joe Show services preview</title>
+  <desc id="desc">Four service cards for club performances, private parties, special events, and full band bookings.</desc>
+  <rect width="1200" height="760" rx="28" fill="#15161C"/>
+  <text x="82" y="78" fill="#E8C757" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3">WHAT WE OFFER</text>
+  <text x="82" y="132" fill="#F5F5F4" font-family="Arial Black, Arial, sans-serif" font-size="48" font-weight="900">OUR SERVICES</text>
+  <text x="82" y="170" fill="#8F919A" font-family="Arial, sans-serif" font-size="18">From intimate duo sets to full-band performances for larger rooms and events.</text>
+  <g transform="translate(82 218)">
+    <g>
+      <rect width="500" height="210" rx="18" fill="#1E2028" stroke="#2B2E38"/>
+      <circle cx="52" cy="52" r="26" fill="#E8C757" fill-opacity=".12"/>
+      <rect x="39" y="39" width="11" height="11" fill="none" stroke="#E8C757" stroke-width="3"/><rect x="54" y="39" width="11" height="11" fill="none" stroke="#E8C757" stroke-width="3"/><rect x="39" y="54" width="11" height="11" fill="none" stroke="#E8C757" stroke-width="3"/><rect x="54" y="54" width="11" height="11" fill="none" stroke="#E8C757" stroke-width="3"/>
+      <text x="94" y="54" fill="#F5F5F4" font-family="Arial Black, Arial, sans-serif" font-size="26">CLUB PERFORMANCES</text>
+      <text x="28" y="104" fill="#9A9CA5" font-family="Arial, sans-serif" font-size="15">Live classic rock for bars, lounges and clubs.</text>
+      <text x="28" y="146" fill="#E8C757" font-family="Arial, sans-serif" font-size="13">✓ Full sound setup</text><text x="184" y="146" fill="#E8C757" font-family="Arial, sans-serif" font-size="13">✓ 2–4 hour sets</text><text x="324" y="146" fill="#E8C757" font-family="Arial, sans-serif" font-size="13">✓ Custom setlists</text>
+    </g>
+    <g transform="translate(536 0)">
+      <rect width="500" height="210" rx="18" fill="#1E2028" stroke="#2B2E38"/>
+      <circle cx="52" cy="52" r="26" fill="#C75A3B" fill-opacity=".12"/>
+      <path d="M42 59l6-18 16 16-18 6z" fill="none" stroke="#C75A3B" stroke-width="3"/>
+      <text x="94" y="54" fill="#F5F5F4" font-family="Arial Black, Arial, sans-serif" font-size="26">PRIVATE PARTIES</text>
+      <text x="28" y="104" fill="#9A9CA5" font-family="Arial, sans-serif" font-size="15">Tailored live music for celebrations and gatherings.</text>
+      <text x="28" y="146" fill="#E8C757" font-family="Arial, sans-serif" font-size="13">✓ Birthdays</text><text x="154" y="146" fill="#E8C757" font-family="Arial, sans-serif" font-size="13">✓ Anniversaries</text><text x="292" y="146" fill="#E8C757" font-family="Arial, sans-serif" font-size="13">✓ Holiday events</text>
+    </g>
+    <g transform="translate(0 242)">
+      <rect width="500" height="210" rx="18" fill="#1E2028" stroke="#2B2E38"/>
+      <circle cx="52" cy="52" r="26" fill="#C75A3B" fill-opacity=".12"/>
+      <path d="M52 67s-17-9-17-23a10 10 0 0 1 18-6 10 10 0 0 1 18 6c0 14-19 23-19 23z" fill="none" stroke="#C75A3B" stroke-width="3"/>
+      <text x="94" y="54" fill="#F5F5F4" font-family="Arial Black, Arial, sans-serif" font-size="26">SPECIAL EVENTS</text>
+      <text x="28" y="104" fill="#9A9CA5" font-family="Arial, sans-serif" font-size="15">Entertainment for community, charity and corporate events.</text>
+      <text x="28" y="146" fill="#E8C757" font-family="Arial, sans-serif" font-size="13">✓ Corporate</text><text x="150" y="146" fill="#E8C757" font-family="Arial, sans-serif" font-size="13">✓ Charity</text><text x="254" y="146" fill="#E8C757" font-family="Arial, sans-serif" font-size="13">✓ Festivals</text>
+    </g>
+    <g transform="translate(536 242)">
+      <rect width="500" height="210" rx="18" fill="#1E2028" stroke="#2B2E38"/>
+      <circle cx="52" cy="52" r="26" fill="#E8C757" fill-opacity=".12"/>
+      <path d="M52 34l6 12 14 2-10 10 2 14-12-7-12 7 2-14-10-10 14-2z" fill="none" stroke="#E8C757" stroke-width="3"/>
+      <text x="94" y="54" fill="#F5F5F4" font-family="Arial Black, Arial, sans-serif" font-size="26">FULL BAND OPTION</text>
+      <text x="28" y="104" fill="#9A9CA5" font-family="Arial, sans-serif" font-size="15">A 4- or 5-piece setup when the room needs more sound.</text>
+      <text x="28" y="146" fill="#E8C757" font-family="Arial, sans-serif" font-size="13">✓ Bass &amp; drums</text><text x="164" y="146" fill="#E8C757" font-family="Arial, sans-serif" font-size="13">✓ Bigger venues</text><text x="310" y="146" fill="#E8C757" font-family="Arial, sans-serif" font-size="13">✓ Festival ready</text>
+    </g>
+  </g>
+</svg>
