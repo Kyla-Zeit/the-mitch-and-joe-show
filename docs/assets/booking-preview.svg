@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">The Mitch &amp; Joe Show events and booking preview</title>
+  <desc id="desc">Upcoming events list paired with a booking enquiry form.</desc>
+  <rect width="1200" height="760" rx="28" fill="#121319"/>
+  <text x="78" y="78" fill="#E8C757" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3">CATCH US LIVE</text>
+  <text x="78" y="130" fill="#F5F5F4" font-family="Arial Black, Arial, sans-serif" font-size="44" font-weight="900">UPCOMING EVENTS</text>
+  <g transform="translate(78 180)">
+    <rect width="520" height="476" rx="20" fill="#1B1D24" stroke="#2A2D35"/>
+    <g transform="translate(24 26)">
+      <rect width="472" height="86" rx="14" fill="#20232B"/>
+      <rect width="88" height="86" rx="14" fill="#E8C757"/><text x="44" y="53" text-anchor="middle" fill="#17181E" font-family="Arial Black, Arial, sans-serif" font-size="20">FEB 14</text>
+      <text x="112" y="30" fill="#F5F5F4" font-family="Arial Black, Arial, sans-serif" font-size="20">VALENTINE'S SPECIAL</text>
+      <text x="112" y="53" fill="#E8C757" font-family="Arial, sans-serif" font-size="13">The Blue Note Lounge</text><text x="112" y="72" fill="#8E9099" font-family="Arial, sans-serif" font-size="12">Toronto, ON · 8:00 PM</text>
+    </g>
+    <g transform="translate(24 128)">
+      <rect width="472" height="86" rx="14" fill="#20232B"/>
+      <rect width="88" height="86" rx="14" fill="#C75A3B"/><text x="44" y="53" text-anchor="middle" fill="#fff" font-family="Arial Black, Arial, sans-serif" font-size="20">FEB 28</text>
+      <text x="112" y="30" fill="#F5F5F4" font-family="Arial Black, Arial, sans-serif" font-size="20">SATURDAY NIGHT LIVE</text>
+      <text x="112" y="53" fill="#E8C757" font-family="Arial, sans-serif" font-size="13">Rockers Bar &amp; Grill</text><text x="112" y="72" fill="#8E9099" font-family="Arial, sans-serif" font-size="12">Mississauga, ON · 9:00 PM</text>
+    </g>
+    <g transform="translate(24 230)">
+      <rect width="472" height="86" rx="14" fill="#20232B"/>
+      <rect width="88" height="86" rx="14" fill="#E8C757"/><text x="44" y="53" text-anchor="middle" fill="#17181E" font-family="Arial Black, Arial, sans-serif" font-size="20">MAR 15</text>
+      <text x="112" y="30" fill="#F5F5F4" font-family="Arial Black, Arial, sans-serif" font-size="20">CHARITY FUNDRAISER</text>
+      <text x="112" y="53" fill="#E8C757" font-family="Arial, sans-serif" font-size="13">Community Center</text><text x="112" y="72" fill="#8E9099" font-family="Arial, sans-serif" font-size="12">Brampton, ON · 7:30 PM</text>
+    </g>
+    <g transform="translate(24 346)"><text x="0" y="14" fill="#F5F5F4" font-family="Arial Black, Arial, sans-serif" font-size="18">WANT US AT YOUR NEXT EVENT?</text><rect y="32" width="190" height="48" rx="8" fill="#E8C757"/><text x="95" y="61" text-anchor="middle" fill="#17181E" font-family="Arial, sans-serif" font-size="13" font-weight="800">REQUEST A BOOKING</text></g>
+  </g>
+  <g transform="translate(638 92)">
+    <text x="0" y="0" fill="#E8C757" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3">GET IN TOUCH</text>
+    <text x="0" y="50" fill="#F5F5F4" font-family="Arial Black, Arial, sans-serif" font-size="42">BOOK US FOR</text>
+    <text x="0" y="96" fill="#F5F5F4" font-family="Arial Black, Arial, sans-serif" font-size="42">YOUR EVENT</text>
+    <rect x="0" y="132" width="482" height="492" rx="20" fill="#1B1D24" stroke="#2A2D35"/>
+    <g fill="#23262F" stroke="#313540">
+      <rect x="24" y="28" width="434" height="54" rx="8"/><rect x="24" y="98" width="434" height="54" rx="8"/><rect x="24" y="168" width="202" height="54" rx="8"/><rect x="242" y="168" width="216" height="54" rx="8"/><rect x="24" y="238" width="434" height="54" rx="8"/><rect x="24" y="308" width="434" height="92" rx="8"/>
+    </g>
+    <g fill="#777A84" font-family="Arial, sans-serif" font-size="13">
+      <text x="42" y="61">Your Name</text><text x="42" y="131">Email</text><text x="42" y="201">Phone</text><text x="260" y="201">Event Date</text><text x="42" y="271">Event Type</text><text x="42" y="343">Message</text>
+    </g>
+    <rect x="24" y="424" width="434" height="48" rx="8" fill="#E8C757"/>
+    <text x="241" y="454" text-anchor="middle" fill="#17181E" font-family="Arial, sans-serif" font-size="14" font-weight="800">SEND MESSAGE</text>
+  </g>
+</svg>
