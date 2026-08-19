@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">The Mitch &amp; Joe Show band preview</title>
+  <desc id="desc">Meet the band section with two musician cards and performance highlights.</desc>
+  <rect width="1200" height="760" rx="28" fill="#121319"/>
+  <text x="84" y="82" fill="#E8C757" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3">ABOUT US</text>
+  <text x="84" y="137" fill="#F5F5F4" font-family="Arial Black, Arial, sans-serif" font-size="48" font-weight="900">MEET THE BAND</text>
+  <text x="84" y="174" fill="#8F919A" font-family="Arial, sans-serif" font-size="18">A piano and 12-string guitar duo built around familiar classic-rock favourites.</text>
+  <g transform="translate(84 222)">
+    <rect width="492" height="290" rx="20" fill="#1C1E26" stroke="#2A2D36"/>
+    <rect x="22" y="22" width="176" height="246" rx="16" fill="#252832"/>
+    <circle cx="110" cy="98" r="42" fill="#343844"/>
+    <path d="M58 216c12-50 37-73 52-73s42 23 54 73" fill="#2D303A"/>
+    <g transform="translate(55 54)" stroke="#E8C757" stroke-width="4" fill="none" opacity=".85">
+      <path d="M0 124h112M8 112V36h96v76"/>
+      <path d="M24 112V64M42 112V64M60 112V64M78 112V64"/>
+    </g>
+    <text x="224" y="78" fill="#F5F5F4" font-family="Arial Black, Arial, sans-serif" font-size="30">MITCH HAQ</text>
+    <text x="224" y="110" fill="#E8C757" font-family="Arial, sans-serif" font-size="14" font-weight="700">PIANO &amp; VOCALS</text>
+    <text x="224" y="156" fill="#9A9CA5" font-family="Arial, sans-serif" font-size="16">Master pianist bringing classic rock</text>
+    <text x="224" y="180" fill="#9A9CA5" font-family="Arial, sans-serif" font-size="16">to life with soulful performances.</text>
+  </g>
+  <g transform="translate(624 222)">
+    <rect width="492" height="290" rx="20" fill="#1C1E26" stroke="#2A2D36"/>
+    <rect x="22" y="22" width="176" height="246" rx="16" fill="#252832"/>
+    <circle cx="110" cy="98" r="42" fill="#343844"/>
+    <path d="M58 216c12-50 37-73 52-73s42 23 54 73" fill="#2D303A"/>
+    <g transform="translate(58 65)" stroke="#C75A3B" stroke-width="5" fill="none" opacity=".9">
+      <circle cx="50" cy="118" r="30"/>
+      <path d="M70 96l52-78M106 41l20 13M96 56l20 13M84 73l20 13"/>
+    </g>
+    <text x="224" y="78" fill="#F5F5F4" font-family="Arial Black, Arial, sans-serif" font-size="30">JOE PICKFORD</text>
+    <text x="224" y="110" fill="#E8C757" font-family="Arial, sans-serif" font-size="14" font-weight="700">12-STRING GUITAR &amp; VOCALS</text>
+    <text x="224" y="156" fill="#9A9CA5" font-family="Arial, sans-serif" font-size="16">Seasoned guitarist with a passion for</text>
+    <text x="224" y="180" fill="#9A9CA5" font-family="Arial, sans-serif" font-size="16">timeless rock anthems.</text>
+  </g>
+  <g transform="translate(84 554)">
+    <rect width="1032" height="132" rx="20" fill="#181A21" stroke="#282B34"/>
+    <g transform="translate(34 26)"><circle cx="28" cy="28" r="28" fill="#E8C757" fill-opacity=".12"/><text x="76" y="25" fill="#F5F5F4" font-family="Arial Black, Arial, sans-serif" font-size="20">DUO ACT</text><text x="76" y="50" fill="#898B95" font-family="Arial, sans-serif" font-size="13">Piano + 12-string guitar</text></g>
+    <g transform="translate(355 26)"><circle cx="28" cy="28" r="28" fill="#C75A3B" fill-opacity=".12"/><text x="76" y="25" fill="#F5F5F4" font-family="Arial Black, Arial, sans-serif" font-size="20">CLASSIC ROCK</text><text x="76" y="50" fill="#898B95" font-family="Arial, sans-serif" font-size="13">Timeless crowd favourites</text></g>
+    <g transform="translate(704 26)"><circle cx="28" cy="28" r="28" fill="#E8C757" fill-opacity=".12"/><text x="76" y="25" fill="#F5F5F4" font-family="Arial Black, Arial, sans-serif" font-size="20">FULL BAND</text><text x="76" y="50" fill="#898B95" font-family="Arial, sans-serif" font-size="13">4- or 5-piece option</text></g>
+  </g>
+</svg>
