@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">The Mitch &amp; Joe Show hero preview</title>
+  <desc id="desc">Dark classic rock entertainment landing page with gold accents, booking calls to action, and performance statistics.</desc>
+  <defs>
+    <radialGradient id="goldGlow" cx="0" cy="0" r="1" gradientTransform="translate(245 185) rotate(35) scale(430 310)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8C757" stop-opacity=".20"/>
+      <stop offset="1" stop-color="#E8C757" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rustGlow" cx="0" cy="0" r="1" gradientTransform="translate(1000 620) rotate(200) scale(420 320)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C75A3B" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#C75A3B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="stage" x1="0" y1="0" x2="1200" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101116"/>
+      <stop offset=".55" stop-color="#171820"/>
+      <stop offset="1" stop-color="#111217"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000" flood-opacity=".38"/></filter>
+  </defs>
+  <rect width="1200" height="760" rx="28" fill="url(#stage)"/>
+  <rect width="1200" height="760" rx="28" fill="url(#goldGlow)"/>
+  <rect width="1200" height="760" rx="28" fill="url(#rustGlow)"/>
+  <g opacity=".18" stroke="#E8C757" stroke-width="2">
+    <circle cx="1040" cy="155" r="82"/>
+    <circle cx="1040" cy="155" r="116"/>
+    <path d="M955 154h170M1040 68v173"/>
+  </g>
+  <g transform="translate(112 108)">
+    <rect x="0" y="0" width="148" height="32" rx="16" fill="#E8C757" fill-opacity=".12" stroke="#E8C757" stroke-opacity=".28"/>
+    <text x="74" y="21" text-anchor="middle" fill="#E8C757" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">CLASSIC ROCK</text>
+    <text x="0" y="118" fill="#F5F5F4" font-family="Arial Black, Arial, sans-serif" font-size="72" font-weight="900" letter-spacing="1">THE MITCH &amp;</text>
+    <text x="0" y="194" fill="#E8C757" font-family="Arial Black, Arial, sans-serif" font-size="86" font-weight="900" letter-spacing="1">JOE SHOW</text>
+    <text x="2" y="246" fill="#A9AAB2" font-family="Arial, sans-serif" font-size="21">Piano, 12-string guitar, vocals and classic rock favourites</text>
+    <text x="2" y="278" fill="#A9AAB2" font-family="Arial, sans-serif" font-size="21">for clubs, private parties and special events.</text>
+    <g transform="translate(0 326)" filter="url(#shadow)">
+      <rect width="176" height="54" rx="8" fill="#E8C757"/>
+      <text x="88" y="34" text-anchor="middle" fill="#18191E" font-family="Arial, sans-serif" font-size="15" font-weight="800">BOOK US NOW</text>
+      <rect x="192" width="166" height="54" rx="8" fill="#171820" stroke="#F5F5F4" stroke-width="2"/>
+      <text x="275" y="34" text-anchor="middle" fill="#F5F5F4" font-family="Arial, sans-serif" font-size="15" font-weight="800">LEARN MORE</text>
+    </g>
+    <g transform="translate(0 444)">
+      <g><text x="0" y="0" fill="#E8C757" font-family="Arial Black, Arial, sans-serif" font-size="34">20+</text><text x="0" y="28" fill="#858791" font-family="Arial, sans-serif" font-size="13">Years Experience</text></g>
+      <g transform="translate(170 0)"><text x="0" y="0" fill="#E8C757" font-family="Arial Black, Arial, sans-serif" font-size="34">500+</text><text x="0" y="28" fill="#858791" font-family="Arial, sans-serif" font-size="13">Shows Performed</text></g>
+      <g transform="translate(350 0)"><text x="0" y="0" fill="#E8C757" font-family="Arial Black, Arial, sans-serif" font-size="34">100%</text><text x="0" y="28" fill="#858791" font-family="Arial, sans-serif" font-size="13">Satisfaction</text></g>
+    </g>
+  </g>
+  <g transform="translate(844 250)" filter="url(#shadow)">
+    <rect width="220" height="292" rx="22" fill="#1E2028" stroke="#2B2E38"/>
+    <rect x="24" y="24" width="172" height="170" rx="86" fill="#272A33"/>
+    <path d="M70 170c34-56 57-105 91-128" stroke="#E8C757" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="68" cy="172" r="34" fill="none" stroke="#C75A3B" stroke-width="9"/>
+    <path d="M147 56v100M131 78h32M131 104h32M131 130h32" stroke="#E8C757" stroke-width="4" stroke-linecap="round"/>
+    <text x="110" y="232" text-anchor="middle" fill="#F5F5F4" font-family="Arial Black, Arial, sans-serif" font-size="18">LIVE CLASSIC ROCK</text>
+    <text x="110" y="258" text-anchor="middle" fill="#8F919A" font-family="Arial, sans-serif" font-size="13">Piano · 12-String · Vocals</text>
+  </g>
+</svg>
